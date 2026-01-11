@@ -1,0 +1,27 @@
+{
+  "name": "react-ui-kit-v11",
+  "version": "1.1.0",
+  "private": false,
+  "main": "dist/react-ui-kit.cjs.js",
+  "module": "dist/react-ui-kit.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "scripts": {
+    "build": "vite build",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.0.0"
+  }
+}
